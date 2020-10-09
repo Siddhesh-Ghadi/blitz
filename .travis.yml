@@ -45,7 +45,7 @@ fast_finish: true
 Before_install:
   - |
     if [ "$TRAVIS_CPU_ARCH" = "ppc64le" ]; then
-      pip install scikit-build
+      sudo pip install scikit-build && sudo pip install cmake
   
     fi
 install:
