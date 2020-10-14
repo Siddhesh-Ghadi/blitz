@@ -1,4 +1,5 @@
 language: erlang
 arch: ppc64le
+otp_release: "23.0.2"
 script:
   - erl --version
